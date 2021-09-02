@@ -4,7 +4,8 @@
   "description": "Generative Arts",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/index.ts"
+    "start": "ts-node ./src/index.ts",
+    "mint": "ts-node ./src/mintNFT.ts"
   },
   "author": "yangli1990",
   "license": "ISC",
