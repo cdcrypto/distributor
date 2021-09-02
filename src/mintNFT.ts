@@ -48,7 +48,7 @@ async function mintNFT(config: PublicKey, authority: Keypair, mintTo: PublicKey,
         SystemProgram.transfer({ // Gives authority some tokens
           fromPubkey: myWallet.publicKey,
           toPubkey: authority.publicKey,
-          lamports: 5000000000 + 10000000, // add minting fees in there
+          lamports: 10000000, // add minting fees in there
         }),
         SystemProgram.createAccount({ //
           fromPubkey: mintTo,
